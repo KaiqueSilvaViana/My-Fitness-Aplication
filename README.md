@@ -96,5 +96,5 @@ Formulário com campo para:
   
   5.Tela Consumo Diário de Água
 
-  <img src="image/TelaCalculoDiário.jpg" alt="Tela Inicial" width="400" height="900">
+  <img src="image/TelaCalculoDiario.jpg" alt="Tela Inicial" width="400" height="900">
   
