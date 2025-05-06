@@ -76,6 +76,8 @@ Formulário com campo para:
 
   ## Screenshots
 
-  <img src="image/TelaPrincipal.png" alt="Tela Inicial" width="400" height="300">
+  Aqui estão algumas capturas de tela do aplicativo:
+
+  <img src="image/TelaPrincipal.jpg" alt="Tela Inicial" width="400" height="300">
 
   
