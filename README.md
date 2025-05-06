@@ -1,4 +1,4 @@
-*My Fitness Lifestyle*
+# My Fitness Lifestyle
 
 🧾 Visão Geral
 My Fitness Lifestyle é um app Android focado em bem-estar físico, que oferece ferramentas para cálculo de saúde e controle de registros pessoais. Ele possui uma interface simples com cinco telas principais, sendo a tela inicial e quatro funcionalidades específicas acessadas por botões.
