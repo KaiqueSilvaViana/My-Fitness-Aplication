@@ -8,69 +8,69 @@ My Fitness Lifestyle é um app Android focado em bem-estar físico, que oferece 
 
 
 1. Tela Inicial
-A primeira tela do aplicativo serve como menu principal e contém 4 botões, cada um direcionando para uma funcionalidade diferente:
-
-Botão 1: Últimos Registros
-
-Botão 2: Cálculo de IMC
-
-Botão 3: Cálculo de TMB
-
-Botão 4: Consumo Diário de Água
+  A primeira tela do aplicativo serve como menu principal e contém 4 botões, cada um direcionando para uma funcionalidade diferente:
+  
+  Botão 1: Últimos Registros
+  
+  Botão 2: Cálculo de IMC
+  
+  Botão 3: Cálculo de TMB
+  
+  Botão 4: Consumo Diário de Água
 
 
 2. Tela – Últimos Registros
-Lista os registros salvos no banco de dados local (SQLite).
-
-Cada item possui opções:
-
-Editar: Abre os dados em um formulário para alteração.
-
-Excluir: Remove o item do banco de dados.
-
-Funcionalidades:
-Leitura, edição e exclusão de dados armazenados.
-
-Banco de dados implementado com SQLite (armazenamento local).
+  Lista os registros salvos no banco de dados local (SQLite).
+  
+  Cada item possui opções:
+  
+  Editar: Abre os dados em um formulário para alteração.
+  
+  Excluir: Remove o item do banco de dados.
+  
+  Funcionalidades:
+  Leitura, edição e exclusão de dados armazenados.
+  
+  Banco de dados implementado com SQLite (armazenamento local).
 
 
 3. Tela – Cálculo de IMC (Índice de Massa Corporal)
-Formulário com campos para:
-
-Peso (kg)
-
-Altura (cm)
-
-Após o preenchimento, exibe o resultado do IMC com a classificação (ex: "peso normal", "sobrepeso", etc).
+  Formulário com campos para:
+  
+  Peso (kg)
+  
+  Altura (cm)
+  
+  Após o preenchimento, exibe o resultado do IMC com a classificação (ex: "peso normal", "sobrepeso", etc).
 
 
 4. Tela – Cálculo de TMB (Taxa Metabólica Basal)
-Formulário com campos para:
-
-Peso
-
-Altura
-
-Idade
-
-Frequência de Treino
-
-Após envio, exibe o resultado da TMB em kcal/dia.
+  Formulário com campos para:
+  
+  Peso
+  
+  Altura
+  
+  Idade
+  
+  Frequência de Treino
+  
+  Após envio, exibe o resultado da TMB em kcal/dia.
 
 
 5. Tela – Consumo Diário de Água
 Formulário com campo para:
 
-Peso corporal
-
-Retorna a quantidade recomendada de água por dia (ex: 35ml por kg de peso corporal).
-
-🧰 Tecnologias Utilizadas
-Kotlin para desenvolvimento Android
-
-Android Studio como IDE
-
-SQLite para armazenamento local de dados
-
-Material Design para componentes visuais (opcional)
-
+  Peso corporal
+  
+  Retorna a quantidade recomendada de água por dia (ex: 35ml por kg de peso corporal).
+  
+  🧰 Tecnologias Utilizadas
+  Kotlin para desenvolvimento Android
+  
+  Android Studio como IDE
+  
+  SQLite para armazenamento local de dados
+  
+  Material Design para componentes visuais (opcional)
+  
