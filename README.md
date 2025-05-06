@@ -73,4 +73,8 @@ Formulário com campo para:
   SQLite para armazenamento local de dados
   
   Material Design para componentes visuais (opcional)
+
+  ## Screenshots
+
+  ![Tela Inicial](image/TelaPrincipal.jpg)
   
