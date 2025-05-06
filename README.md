@@ -80,7 +80,7 @@ Formulário com campo para:
 
   1.Tela Principal
 
- ![telaprincipa] ("image/TelaPrincipal.jpg")
+  <img src="image/TelaPrincipa.jpg" alt="Tela Principal" width="400" height="900">
 
   2.Tela de Registros
 
