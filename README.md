@@ -78,6 +78,23 @@ Formulário com campo para:
 
   Aqui estão algumas capturas de tela do aplicativo:
 
+  1.Tela Principal
+
   <img src="image/TelaPrincipal.jpg" alt="Tela Inicial" width="400" height="900">
 
+  2.Tela de Registros
+
+  <img src="image/TelaDeRegistros.jpg" alt="Tela Inicial" width="400" height="900">
+
+  3.Tela IMC
+
+  <img src="image/TelaIMC.jpg" alt="Tela Inicial" width="400" height="900">
+
+  4.Tela TMB
+
+  <img src="image/TelaTMB.jpg" alt="Tela Inicial" width="400" height="900">
+  
+  5.Tela Consumo Diário de Água
+
+  <img src="image/TelaCalculoDiário.jpg" alt="Tela Inicial" width="400" height="900">
   
