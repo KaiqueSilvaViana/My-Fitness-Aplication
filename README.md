@@ -78,6 +78,6 @@ Formulário com campo para:
 
   Aqui estão algumas capturas de tela do aplicativo:
 
-  <img src="image/TelaPrincipal.jpg" alt="Tela Inicial" width="450" height="850">
+  <img src="image/TelaPrincipal.jpg" alt="Tela Inicial" width="400" height="900">
 
   
