@@ -76,5 +76,6 @@ Formulário com campo para:
 
   ## Screenshots
 
-  ![Tela Inicial](image/TelaPrincipal.jpg)
+  <img src="image/TelaPrincipal.png" alt="Tela Inicial" width="400" height="300">
+
   
