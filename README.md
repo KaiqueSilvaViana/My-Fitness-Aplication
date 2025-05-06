@@ -1,4 +1,4 @@
-# My-Fitness-Aplication
+# My-Fitness-Lifestyle
 
 My Fitness Application é um app Android focado em bem-estar físico, que oferece ferramentas para cálculo de saúde e controle de registros pessoais. Ele possui uma interface simples com cinco telas principais, sendo a tela inicial e quatro funcionalidades específicas acessadas por botões.
 
@@ -13,3 +13,5 @@ Botão 2: Cálculo de IMC
 Botão 3: Cálculo de TMB
 
 Botão 4: Consumo Diário de Água
+
+<img src="
