@@ -80,7 +80,7 @@ Formulário com campo para:
 
   1.Tela Principal
 
- ![telaprincipa] "image/TelaPrincipal.jpg"
+ ![telaprincipa] ("image/TelaPrincipal.jpg")
 
   2.Tela de Registros
 
