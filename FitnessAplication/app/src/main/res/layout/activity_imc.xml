@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImcActivity"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/imc_desc"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="13sp"
+            android:textColor="@color/blue_light"
+            />
+
+
+        <EditText
+            android:id="@+id/edit_imc_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:maxLength="3"
+            android:inputType="number"
+            android:hint="@string/weight_desc"
+            android:textColorHint="@color/blue_light"
+            android:background="@drawable/edit_text_drawable"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            />
+
+        <EditText
+            android:id="@+id/edit_imc_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:maxLength="3"
+            android:layout_marginEnd="30dp"
+            android:inputType="number"
+            android:textColorHint="@color/blue_light"
+            android:hint="@string/height_desc"
+            android:background="@drawable/edit_text_drawable"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="13sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_imc"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_calc_imc"
+            style="@style/button_calc"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

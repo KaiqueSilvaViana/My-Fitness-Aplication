@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TmbActivity"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/tmb_desc"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_light"/>
+
+        <EditText
+            android:id="@+id/edit_tmb_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:maxLength="3"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/edit_text_drawable"
+            android:hint="@string/age_desc"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/blue_light"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/edit_tmb_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:maxLength="3"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/edit_text_drawable"
+            android:hint="@string/weight_desc"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/blue_light"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/edit_tmb_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:maxLength="3"
+            android:background="@drawable/edit_text_drawable"
+            android:hint="@string/height_desc"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/blue_light"
+            android:textSize="13sp" />
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/AutoTextViewForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_drawable"
+            android:padding="5dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_lifestyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:inputType="none"
+                android:textSize="13sp"
+                android:textColor="@color/blue_dark" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_tmb"
+            style="@style/button_calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/button_calc_tmb"
+            android:layout_marginBottom="40dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

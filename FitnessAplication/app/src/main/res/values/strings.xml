@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MyFitnessLifestyle</string>
+    <string name="welcome">Olá, bem-vindo(a)\nao seu aplicativo fitness!</string>
+    <string name="button_register">Ultimos Registros</string>
+    <string name="imc_button">Calcule seu IMC</string>
+    <string name="imc_desc">O IMC (Índice de Massa Corporal) é uma medida usada para avaliar se uma pessoa está com o peso adequado em relação à sua altura. Ele é calculado dividindo o peso (em quilos) pela altura (em metros) ao quadrado.</string>
+    <string name="weight_desc">Digite seu peso (kg)</string>
+    <string name="height_desc">Digite sua altura (cm)</string>
+    <string name="button_calc_imc">Calcule do IMC</string>
+    <string name="desc_info">Escolha o que você precisa:</string>
+    <string name="tmb_button">Calcule do TMB</string>
+    <string name="water_button">Cálculo de hidratação diária</string>
+    <string name="tmb_desc">TMB (Taxa de Metabolismo Basal) é a quantidade de calorias que o corpo gasta em repouso para manter funções vitais como respirar, batimentos cardíacos e temperatura corporal. É o gasto mínimo de energia necessário para o corpo funcionar mesmo sem nenhuma atividade física.</string>
+    <string name="age_desc">Digite sua idade</string>
+    <string name="water_desc">Este cálculo estima a quantidade ideal de água que você deve consumir por dia com base no seu peso corporal. A fórmula considera 35 ml de água por quilo, ajudando a manter seu corpo bem hidratado, otimizar o desempenho físico e apoiar funções vitais. Basta informar seu peso e o app faz o resto!</string>
+    <string name="button_calc_water">Calcule a quantidade diária</string>
+    <string name="button_calc_tmb">Calcule o TMB</string>
+    <string name="alert">Preencha os campos corretamente!</string>
+
+    <string name="imc_severely_low_weight">Severamente abaixo do peso</string>
+    <string name="imc_very_low_weight">Muito abaixo do peso</string>
+    <string name="imc_low_weight">Abaixo do peso</string>
+    <string name="normal">Normal</string>
+    <string name="imc_high_weight">Acima do peso</string>
+    <string name="imc_so_high_weight">Moderadamente obeso</string>
+    <string name="imc_severely_high_weight">Severamente obeso</string>
+    <string name="imc_extreme_weight">Extremamente obeso</string>
+
+    <string name="imc_response">Seu IMC é: %1$.2f</string>
+
+    <string name="water_title">Veja sua hidratação</string>
+    <string name="water_response">Voce precisa consumir %1$.2f litros de água</string>
+
+    <string name="tmb_response">Você precisa dessa quantidade de calorias: %1$.2f kcal/dia</string>
+    <string name="save">Salvar</string>
+    <string name="saved">Registro salvo com sucesso!</string>
+    <string name="search">Buscar</string>
+    <string name="list_resul">resultado: %1$.2f data: %2$s</string>
+    <string name="delete_item">Você realmente quer excluir esse item?</string>
+    <string name="edit">O que você precisa: </string>
+    <string name="delete">excluir</string>
+    <string name="edit_list">editar</string>
+</resources>

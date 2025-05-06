@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WaterActivity"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="8dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/water_desc"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="13sp"
+            android:textColor="@color/blue_light"
+            />
+
+
+        <EditText
+            android:id="@+id/water_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:inputType="number"
+            android:maxLength="3"
+            android:hint="@string/weight_desc"
+            android:textColorHint="@color/blue_light"
+            android:background="@drawable/edit_text_drawable"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/water_button"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_calc_water"
+            style="@style/button_calc"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
