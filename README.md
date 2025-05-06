@@ -1,9 +1,11 @@
 # My Fitness Lifestyle
 
 🧾 Visão Geral
+
 My Fitness Lifestyle é um app Android focado em bem-estar físico, que oferece ferramentas para cálculo de saúde e controle de registros pessoais. Ele possui uma interface simples com cinco telas principais, sendo a tela inicial e quatro funcionalidades específicas acessadas por botões.
 
 🗂 Estrutura de Telas
+
 1. Tela Inicial
 A primeira tela do aplicativo serve como menu principal e contém 4 botões, cada um direcionando para uma funcionalidade diferente:
 
@@ -47,7 +49,7 @@ Altura
 
 Idade
 
-Sexo
+Frequência de Treino
 
 Após envio, exibe o resultado da TMB em kcal/dia.
 
