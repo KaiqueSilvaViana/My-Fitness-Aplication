@@ -80,7 +80,7 @@ Formulário com campo para:
 
   1.Tela Principal
 
-  <img src="image/TelaPrincipa.jpg" alt="Tela Principal" width="400" height="900">
+  <img src="image/TelaPrincipal.jpg" alt="Tela Principal" width="400" height="900">
 
   2.Tela de Registros
 
